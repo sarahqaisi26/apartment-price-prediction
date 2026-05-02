@@ -8,8 +8,8 @@
 
 | Name | Student Number |
 |------|---------------|
-| Sara Al-Qaisi | 202210717 |
-| Mira Al-Damour | 202210974 |
+| Sarah Al-Qaisi | 202210717 |
+| Meerah Al-Dmour | 202210974 |
 
 **Supervised by:** Dr. Hussam Burham  
 **Course:** 307498 – Graduation Project  
