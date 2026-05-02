@@ -11,7 +11,7 @@
 | Sarah Al-Qaisi | 202210717 |
 | Meerah Al-Dmour | 202210974 |
 
-**Supervised by:** Dr. Hussam Burham  
+**Supervised by:** Dr. Hussam Barham  
 **Course:** 307498 – Graduation Project  
 **Semester:** Second Semester, 2025/2026
 
