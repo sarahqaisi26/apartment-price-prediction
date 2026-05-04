@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3-orange)
+![Tableau](https://img.shields.io/badge/Tableau-Public-lightblue)
+![Status](https://img.shields.io/badge/Status-Complete-green)
 # Numbers Don't Lie: Replacing Traditional Appraisers with Predictive Machine Learning for Mortgaged Properties
 
 > A Business Intelligence Graduation Project — University of Petra, 2025/2026
@@ -25,6 +29,19 @@ The model predicts the fair market price of a mortgaged apartment based on 22 fe
 
 ---
 
+## Priject motivation
+
+## Why This Matters
+
+In Jordan, mortgaged apartment valuations for court proceedings 
+rely entirely on human appraisers — a process that is slow, 
+expensive, and inconsistent. Two appraisers can value the same 
+apartment differently by 20,000–50,000 JOD. This project 
+provides a data-driven benchmark that is fast, reproducible, 
+and fully transparent.
+
+---
+
 ## Project Structure
 
 ```
@@ -48,6 +65,22 @@ apartment-price-prediction/
 ```
 
 ---
+
+## Dataset Description
+
+## Dataset
+
+| Property | Value |
+|----------|-------|
+| Total records | 603 apartments |
+| Cities covered | 8 (Amman, Zarqa, Irbid, Madaba, Aqaba, Karak, Salt, Ajloun) |
+| Neighborhoods | 91 unique locations |
+| Features | 22 original + 4 engineered |
+| Price range | 9,975 — 359,800 JOD |
+| Sources | Company X, OpenSooq, Facebook, Court Auctions |
+
+---
+
 
 ## Key Results
 
@@ -94,3 +127,13 @@ See [docs/06_deployment.md](docs/06_deployment.md) for full setup instructions.
 | BI Dashboard | Tableau Public |
 | Development | Google Colab |
 | Version Control | GitHub |
+
+## Dashboard Link
+
+## Dashboard
+
+The interactive Tableau dashboard is available at:
+[View on Tableau Public](https://public.tableau.com)
+
+Includes 8 visualizations covering price distribution, 
+city comparisons, actual vs predicted prices, and feature importance.
