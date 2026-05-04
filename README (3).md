@@ -29,6 +29,19 @@ The model predicts the fair market price of a mortgaged apartment based on 22 fe
 
 ---
 
+## Project Motivation
+
+## Why This Matters
+
+In Jordan, mortgaged apartment valuations for court proceedings 
+rely entirely on human appraisers — a process that is slow, 
+expensive, and inconsistent. Two appraisers can value the same 
+apartment differently by 20,000–50,000 JOD. This project 
+provides a data-driven benchmark that is fast, reproducible, 
+and fully transparent.
+
+---
+
 ## Project Structure
 
 ```
@@ -50,6 +63,21 @@ apartment-price-prediction/
 ├── requirements.txt                   # Python dependencies
 └── .gitignore
 ```
+
+---
+
+## Data description
+
+## Dataset
+
+| Property | Value |
+|----------|-------|
+| Total records | 603 apartments |
+| Cities covered | 8 (Amman, Zarqa, Irbid, Madaba, Aqaba, Karak, Salt, Ajloun) |
+| Neighborhoods | 91 unique locations |
+| Features | 22 original + 4 engineered |
+| Price range | 9,975 — 359,800 JOD |
+| Sources | Company X, OpenSooq, Facebook, Court Auctions |
 
 ---
 
@@ -98,3 +126,15 @@ See [docs/06_deployment.md](docs/06_deployment.md) for full setup instructions.
 | BI Dashboard | Tableau Public |
 | Development | Google Colab |
 | Version Control | GitHub |
+
+---
+
+## Dashboard Link 
+
+## Dashboard
+
+The interactive Tableau dashboard is available at:
+ [View on Tableau Public](https://public.tableau.com)
+
+Includes 8 visualizations covering price distribution, 
+city comparisons, actual vs predicted prices, and feature importance.
