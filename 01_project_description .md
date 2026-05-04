@@ -1,3 +1,10 @@
+> **Project Title:** Numbers Don't Lie: Replacing Traditional Appraisers 
+> with Predictive Machine Learning for Mortgaged Properties
+>
+> **Team:** Sara Al-Qaisi | Mira Al-Damour
+> **Supervisor:** Dr. Hussam Burham
+> **University of Petra — Second Semester 2025/2026**
+
 # 01 — Project Description and Objectives
 
 ## 1.1 What is This Project About?
@@ -61,3 +68,27 @@ The model delivers value at multiple levels:
 4. **Produce an interactive Tableau dashboard** for non-technical business users to explore pricing patterns
 5. **Deliver a reproducible codebase** that the company can extend as new transaction data becomes available
 6. **Document the full methodology** in a format that satisfies both academic and business standards
+
+---
+## 1.6 Expected Outcomes
+
+By the end of this project, the following deliverables will be produced:
+
+| Deliverable | Description | Status |
+|-------------|-------------|--------|
+| Python Notebook | Full ML pipeline from data cleaning to prediction | Complete |
+| Trained Model | Gradient Boosting model saved as .pkl file | Complete |
+| Tableau Dashboard | 8 interactive visualizations | Complete |
+| GitHub Repository | Full documentation and version control | Complete |
+| Prediction Function | Ready-to-use function for new apartments | Complete |
+
+## 1.7 Real-World Impact
+
+This project has direct applications in three real scenarios:
+
+- **Court Case Filed** → Judge needs property value immediately → 
+Model provides benchmark in seconds
+- **Bank Loan Application** → Lender needs to verify collateral value → 
+Model flags overpriced properties automatically  
+- **Company X Agent** → Agent needs to price a new listing → 
+Model provides data-backed starting point
