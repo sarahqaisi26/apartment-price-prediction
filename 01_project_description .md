@@ -2,7 +2,7 @@
 > with Predictive Machine Learning for Mortgaged Properties
 >
 > **Team:** Sarah Al-Qaisi | Meerah Al-Dmour
-> **Supervisor:** Dr. Hussam Burham
+> **Supervisor:** Dr. Hussam Barham
 > **University of Petra — Second Semester 2025/2026**
 
 # 01 — Project Description and Objectives
