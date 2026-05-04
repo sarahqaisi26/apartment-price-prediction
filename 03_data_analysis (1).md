@@ -95,3 +95,38 @@ Building age shows a negative correlation — older buildings sell for less. Bas
 4. **Most apartments are unfurnished** — only 39 of 603 apartments (6.5%) are furnished, limiting the model's ability to learn strong furnishing effects.
 
 5. **Amenities add incremental value** — gardens and terraces add the most value among binary features, while storage rooms and maid's rooms contribute smaller premiums.
+
+---
+
+## 3.5 Dataset Statistics Summary
+
+| Metric | Value |
+|--------|-------|
+| Total apartments | 603 |
+| Cities | 8 |
+| Neighborhoods | 91 |
+| Numeric features | 12 |
+| Binary features | 7 |
+| Categorical features | 2 |
+| Engineered features | 4 |
+| Total features used in model | 22 |
+| Missing values after cleaning | 0 |
+| Price — minimum | 9,975 JOD |
+| Price — median | 84,975 JOD |
+| Price — mean | 86,601 JOD |
+| Price — maximum | 359,800 JOD |
+
+---
+
+## 3.6 Why These Features Matter
+
+The features in this dataset capture four dimensions of apartment value:
+
+- **Physical scale** — size, bedrooms, bathrooms, total rooms
+- **Location** — city, neighborhood (the two strongest predictors)
+- **Condition** — building age, floor, furnished status
+- **Extras** — amenities score, garden, terrace, balcony
+
+Together, these dimensions give the model enough information to 
+explain 72.5% of the price variation across 603 apartments 
+in 8 Jordanian cities.
