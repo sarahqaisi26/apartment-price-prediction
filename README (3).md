@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3-orange)
+![Tableau](https://img.shields.io/badge/Tableau-Public-lightblue)
+![Status](https://img.shields.io/badge/Status-Complete-green)
 # Numbers Don't Lie: Replacing Traditional Appraisers with Predictive Machine Learning for Mortgaged Properties
 
 > A Business Intelligence Graduation Project — University of Petra, 2025/2026
