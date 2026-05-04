@@ -1,7 +1,7 @@
 > **Project Title:** Numbers Don't Lie: Replacing Traditional Appraisers 
 > with Predictive Machine Learning for Mortgaged Properties
 >
-> **Team:** Sara Al-Qaisi | Mira Al-Damour
+> **Team:** Sarah Al-Qaisi | Meerah Al-Dmour
 > **Supervisor:** Dr. Hussam Burham
 > **University of Petra — Second Semester 2025/2026**
 
