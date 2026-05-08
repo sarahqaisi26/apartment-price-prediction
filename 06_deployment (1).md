@@ -1,5 +1,21 @@
 # 06 — Project Deployment
 
+## 6.0 Project Repository
+
+All project files are available on GitHub:
+
+ **[GitHub Repository](https://github.com/your-username/apartment-price-prediction)**
+
+| File/Folder | Contents |
+|-------------|----------|
+| `notebooks/` | Main Python notebook |
+| `data/raw/` | Original Excel dataset |
+| `data/processed/` | Cleaned data for Tableau |
+| `models/` | Saved ML models |
+| `dashboards/` | Tableau workbook |
+| `docs/` | Full project documentation |
+
+
 ## 6.1 How a Business User Consumes This Project
 
 The project delivers value through two interfaces:
@@ -17,7 +33,7 @@ Developers or analysts can load the saved model and call the `predict_price()` f
 ### Prerequisites
 - Python 3.8 or higher
 - Git
-- A Google account (for Google Colab) or local Jupyter installation
+-A Google account for Google Colab
 
 ### Step 1 — Clone the Repository
 ```bash
@@ -34,19 +50,10 @@ pip install -r requirements.txt
 Place `company_X.xlsx` in the `data/raw/` folder.
 
 ### Step 4 — Run the Notebook
-```bash
-jupyter notebook notebooks/apartment_price_prediction.ipynb
-```
 
-Run all cells from top to bottom. The notebook will:
-1. Load and clean the data
-2. Engineer new features
-3. Generate EDA charts
-4. Train all six models
-5. Evaluate and compare performance
-6. Save the best model to `models/best_model.pkl`
-7. Export `apartments_tableau.csv` to `data/processed/`
-
+# Open Google Colab: https://colab.research.google.com
+# Upload company_X.xlsx to session storage
+# Upload the notebook and run all cells from top to bottom
 ---
 
 ## 6.3 Using the Prediction Function
@@ -124,7 +131,7 @@ seaborn==0.12.0
 scikit-learn==1.3.0
 joblib==1.3.0
 openpyxl==3.1.0
-jupyter==1.0.0
+
 ```
 
 ---
