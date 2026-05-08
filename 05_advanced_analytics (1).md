@@ -47,7 +47,7 @@ An ensemble of 200 decision trees, each trained on a random subset of the data a
 
 ---
 
-### Model 6: Gradient Boosting ✅ Best Model
+### Model 6: Gradient Boosting , Best Model
 Builds trees sequentially rather than in parallel. Each new tree focuses specifically on the residual errors of the previous model — gradually reducing prediction error with each iteration. The learning_rate parameter (0.05) controls how aggressively each tree corrects the previous one, preventing overshooting.
 
 **Parameters:** n_estimators=200, max_depth=5, learning_rate=0.05, random_state=42  
@@ -115,3 +115,30 @@ The Gradient Boosting model assigns the following importance scores to each feat
 An MAE of 15,193 JOD on a median price of ~85,000 JOD represents an average error of approximately 18%. In the context of court valuations, this is a meaningful benchmark — it tells the judge that the model's estimate has an expected margin of approximately ±15,000 JOD, which is comparable to or better than the variance between two independent human appraisers.
 
 The model is most reliable for apartments in the 50,000–150,000 JOD range, which represents the bulk of the dataset. Predictions for very high-value properties (above 200,000 JOD) carry higher uncertainty due to the small number of such properties in the training data.
+
+---
+
+## 5.7 Why Gradient Boosting Won
+
+| Reason | Explanation |
+|--------|-------------|
+| Handles non-linear relationships | Price doesn't increase linearly with size or age |
+| Captures feature interactions | Location × size interaction affects price |
+| Robust to outliers | Luxury apartments don't distort the model |
+| Works well on small datasets | 603 records is enough for tree-based models |
+| Sequential error correction | Each tree fixes mistakes of the previous one |
+
+---
+
+## 5.8 Model Limitations
+
+| Limitation | Impact |
+|-----------|--------|
+| 603 training records | Limited generalization for rare property types |
+| No transaction dates | Cannot account for market fluctuations over time |
+| 91 neighborhoods | Some neighborhoods have very few records |
+| No external features | Distance to schools, hospitals not included |
+| Forced-sale vs market price | Court auction prices may differ from open market |
+
+> **Note:** Despite these limitations, an R² of 0.725 is competitive 
+> with published real estate ML studies on datasets of similar size.
