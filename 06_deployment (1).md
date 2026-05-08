@@ -51,9 +51,9 @@ Place `company_X.xlsx` in the `data/raw/` folder.
 
 ### Step 4 — Run the Notebook
 
-1-Open Google Colab: https://colab.research.google.com
-2-Upload company_X.xlsx to session storage
-3-Upload the notebook and run all cells from top to bottom
+# Open Google Colab: https://colab.research.google.com
+# Upload company_X.xlsx to session storage
+# Upload the notebook and run all cells from top to bottom
 
 ---
 
