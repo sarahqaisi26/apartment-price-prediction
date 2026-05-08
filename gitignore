@@ -1,7 +1,3 @@
-# Data files
-data/raw/*.csv
-data/raw/*.xlsx
-data/processed/*.parquet
 
 # Python
 __pycache__/
