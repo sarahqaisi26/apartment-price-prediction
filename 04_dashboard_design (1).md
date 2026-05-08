@@ -1,101 +1,148 @@
 # 04 — Dashboard Design and Business Insights
 
+<img width="1536" height="925" alt="Screenshot (68)" src="https://github.com/user-attachments/assets/34a13830-15f8-4de2-801e-7c30cb3d2666" />
+
+
 ## 4.1 Dashboard Overview
 
-The Tableau dashboard was built on the `apartments_tableau.csv` file exported from the Python pipeline. This file contains the original apartment data enriched with three model-generated columns: `predicted_price`, `error` (actual minus predicted), and `error_pct` (percentage error), as well as a `price_range` category column.
+The Tableau dashboard was built on the `apartments_tableau.csv` file 
+exported from the Python pipeline. This file contains the original 
+apartment data enriched with model-generated columns: `predicted_price`, 
+`error`, `error_pct`, and `price_range`.
 
-The dashboard is designed for business users at Company X who need to explore pricing patterns without interacting with code. It answers six core business questions through interactive visualizations.
+The dashboard is designed for business users at Company X who need to 
+explore pricing patterns without interacting with code. It answers 
+core business questions through 11 interactive visualizations.
+
+**Dashboard Link:** [View on Tableau Public](https://public.tableau.com)
 
 ---
 
 ## 4.2 Dashboard Components
 
-### Chart 1: Average Price by City
-**Type:** Bar Chart  
-**X-axis:** City | **Y-axis:** Average Price (JOD)
+### Chart 1 — Average Price by City
+**Type:** Bar Chart
 
-**Description:** Shows the median transaction price for apartments in each of the eight cities covered by the dataset.
+![Average Price by City](../assets/chart1_city.png)
 
-**Insight Derived:** Amman consistently commands the highest prices, followed by Aqaba and Irbid. Karak and Ajloun represent the most affordable markets. This chart gives lenders and courts an immediate city-level benchmark when evaluating a mortgaged property.
-
----
-
-### Chart 2: Price vs. Apartment Size
-**Type:** Scatter Plot  
-**X-axis:** Size (m²) | **Y-axis:** Price (JOD) | **Color:** Bedrooms
-
-**Description:** Each dot represents one apartment. The color indicates the number of bedrooms, revealing how bedroom count interacts with size to determine price.
-
-**Insight Derived:** The positive size-price relationship is clear but not perfectly linear — significant scatter above and below the trend line confirms that location and features create substantial price variation at any given size. Outlier dots far from the trend warrant closer investigation.
+**Insight:** Amman commands the highest prices, followed by Aqaba 
+and Irbid. Karak and Ajloun represent the most affordable markets.
 
 ---
 
-### Chart 3: Apartments by Price Range
-**Type:** Bar Chart  
-**X-axis:** Price Range Category | **Y-axis:** Count
+### Chart 2 — Price vs Size
+**Type:** Scatter Plot
 
-**Description:** Distributes apartments into five price bands: Under 50K, 50K–80K, 80K–120K, 120K–180K, and Above 180K JOD.
+![Price vs Size](../assets/chart2_size.png)
 
-**Insight Derived:** The majority of Company X's portfolio falls in the 50K–120K range, confirming that the company primarily serves the mid-market segment. Very few properties fall below 50K or above 180K, which are underserved niches.
-
----
-
-### Chart 4: Actual vs. Predicted Price
-**Type:** Scatter Plot  
-**X-axis:** Actual Price | **Y-axis:** Predicted Price
-
-**Description:** Each dot represents one apartment. A perfect model would place all dots on the diagonal line. Dots above the line indicate under-prediction; dots below indicate over-prediction.
-
-**Insight Derived:** The model performs well in the 50K–150K range where most data is concentrated. Prediction accuracy decreases for very high-value properties (above 200K), which is expected given their scarcity in the training data. This chart is the most important for evaluating model trustworthiness.
+**Insight:** Strong positive relationship between size and price, 
+but significant scatter confirms location creates major price 
+variation at any given size.
 
 ---
 
-### Chart 5: Average Price by Location
-**Type:** Horizontal Bar Chart  
-**Y-axis:** Neighborhood | **X-axis:** Average Price (JOD)
+### Chart 3 — Actual vs Predicted Price
+**Type:** Scatter Plot
 
-**Description:** Ranks all 91 neighborhoods by average apartment price, from most to least expensive.
+![Actual vs Predicted](../assets/chart3_predicted.png)
 
-**Insight Derived:** Premium neighborhoods like Abdoun, Dair Ghbar, and Dabouq significantly outperform the city average, while peripheral areas like Sahab and Tbarbour fall well below. This chart is critical for court valuations — the neighborhood alone can explain a 100% price difference for otherwise identical apartments.
-
----
-
-### Chart 6: City Distribution
-**Type:** Pie Chart  
-**Dimension:** City
-
-**Description:** Shows the proportion of apartments in the dataset from each city.
-
-**Insight Derived:** Amman dominates the portfolio, which explains why the model performs better for Amman properties. This also highlights a data gap — more records from smaller cities would improve model generalization.
+**Insight:** Model performs well in the 50K–150K range. Most points 
+cluster near the diagonal line, confirming model reliability.
 
 ---
 
-### Chart 7: Price Range Distribution
-**Type:** Pie Chart  
-**Dimension:** Price Range
+### Chart 4 — Average Price by Bedrooms
+**Type:** Bar Chart
 
-**Description:** Shows what proportion of apartments fall into each price category.
+![Price by Bedrooms](../assets/chart4_bedrooms.png)
 
-**Insight Derived:** The mid-market segment (50K–120K) accounts for the majority of transactions, confirming where Company X's core business lies and where the model is most reliable.
+**Insight:** Clear positive relationship between bedroom count and 
+price up to 4 bedrooms.
 
 ---
 
-### Chart 8: Price Heatmap by City and Price Range
-**Type:** Heatmap  
-**Rows:** Price Range | **Columns:** City | **Color:** Average Price
+### Chart 5 — Price Range Distribution
+**Type:** Pie Chart
 
-**Description:** A two-dimensional view showing how price ranges distribute across cities. Darker cells indicate higher average prices.
+![Price Range Distribution](../assets/chart5_price_range.png)
 
-**Insight Derived:** The heatmap reveals that Amman spans all price ranges while smaller cities are concentrated in lower bands. Aqaba shows an interesting mid-to-high concentration, reflecting its tourism-driven premium market.
+**Insight:** Majority of apartments fall in the 50K–120K range, 
+confirming Company X primarily serves the mid-market segment.
+
+---
+
+### Chart 6 — Top 10 Locations by Price
+**Type:** Horizontal Bar Chart
+
+![Top 10 Locations](../assets/chart6_locations.png)
+
+**Insight:** Abdoun, Dair Ghbar, and Dabouq are the most expensive 
+neighborhoods. Location alone can explain a 100% price difference 
+for otherwise identical apartments.
+
+---
+
+### Chart 7 — Building Age vs Price
+**Type:** Scatter Plot
+
+![Building Age vs Price](../assets/chart7_building_age.png)
+
+**Insight:** Newer buildings command higher prices. Clear price 
+discount for buildings older than 10 years.
+
+---
+
+### Chart 8 — Furnished vs Unfurnished
+**Type:** Bar Chart
+
+![Furnished vs Unfurnished](../assets/chart8_furnished.png)
+
+**Insight:** Furnished apartments command a price premium over 
+unfurnished ones.
+
+---
+
+### Chart 9 — Price Heatmap
+**Type:** Heatmap
+
+![Price Heatmap](../assets/chart9_heatmap.png)
+
+**Insight:** Amman spans all price ranges while smaller cities 
+concentrate in lower bands.
+
+---
+
+### Chart 10 — City Distribution
+**Type:** Pie Chart
+
+![City Distribution](../assets/chart10_city_pie.png)
+
+**Insight:** Amman dominates the portfolio, explaining why the 
+model performs better for Amman properties.
+
+---
+
+### Chart 11 — Apartments by Price Range
+**Type:** Bar Chart
+
+![Apartments by Price Range](../assets/chart11_apartments_range.png)
+
+**Insight:** Most apartments fall in the 80K–120K range, confirming 
+the mid-market dominance.
 
 ---
 
 ## 4.3 Business Value of the Dashboard
 
-The dashboard transforms raw model output into a tool that non-technical stakeholders can use directly. A court clerk, loan officer, or property manager can open the dashboard, filter by city and neighborhood, and immediately see:
+The dashboard transforms raw model output into a tool that 
+non-technical stakeholders can use directly:
 
-- What apartments in that area typically sell for
-- How the model's predictions compare to actual prices
-- Whether a specific property is priced above or below market expectations
+| User | How They Use It |
+|------|----------------|
+| Court clerk | Get instant price benchmark by city and neighborhood |
+| Loan officer | Verify if property price matches market value |
+| Property manager | Explore pricing patterns across cities |
+| Company X agent | Provide data-backed pricing to clients |
 
-This represents a fundamental shift from subjective appraisal to data-informed valuation.
+This represents a fundamental shift from subjective appraisal 
+to data-informed valuation.
