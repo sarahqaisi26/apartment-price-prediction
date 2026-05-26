@@ -1,8 +1,5 @@
 # 03 — Data Description and Understanding
 
-<img src="../../assets/AP_PHOTO.jpg" width="300"/> <img src="../../assets/AP_PHOTO%20(3).jpg" width="300"/>
-
-<img src="../../assets/AP_PHOTO%20(4).jpg" width="300"/> <img src="../../assets/AP_PHOTO%20(5).jpg" width="300"/>
 
 ## 3.1 Data Dictionary
 
@@ -86,8 +83,11 @@ Key correlations with price:
 
 Building age shows a negative correlation — older buildings sell for less. Basement apartments also carry a consistent price discount.
 
+### Sample Apartments from the Dataset
 
+<img src="../../assets/AP_PHOTO.jpg" width="300"/> <img src="../../assets/AP_PHOTO%20(3).jpg" width="300"/>
 
+<img src="../../assets/AP_PHOTO%20(4).jpg" width="300"/> <img src="../../assets/AP_PHOTO%20(5).jpg" width="300"/>
 ---
 
 ## 3.4 Key Insights from EDA
