@@ -23,7 +23,7 @@ core business questions through 11 interactive visualizations.
 ### Chart 1 — Average Price by City
 **Type:** Bar Chart
 
-<img width="1145" height="865" alt="Screenshot (57)" src="https://github.com/user-attachments/assets/c97f373d-5d0f-4b6e-a95b-ec845a607a84" />
+<img width="900" height="865" alt="Screenshot (57)" src="https://github.com/user-attachments/assets/c97f373d-5d0f-4b6e-a95b-ec845a607a84" />
 
 
 **Insight:** Amman commands the highest prices, followed by Aqaba 
