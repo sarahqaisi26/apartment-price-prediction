@@ -42,12 +42,12 @@ market prices.
 
 ### Sample Appraisal Reports
 
-> The following are real appraisal reports submitted to Jordanian courts, 
+> The following are real appraisal reports and court auction advertisements 
 > showing how traditional appraisers estimate property values manually.
 
-<img src="../assets/REPORT.jpg" width="300"/>
-<img src="../assets/REPORT%20(2).jpg" width="300"/>
-<img src="../assets/REPORT%20(6).jpg" width="300"/>
+<img src="../assets/REPORT.jpg" width="280"/> <img src="../assets/REPORT%20(2).jpg" width="280"/> <img src="../assets/REPORT%20(6).jpg" width="280"/>
+
+<img src="../assets/ADV.jpg" width="280"/>
 
 ## 2.3 Data Sources Summary
 
