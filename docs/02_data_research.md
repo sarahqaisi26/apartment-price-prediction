@@ -40,6 +40,16 @@ mortgaged apartments sold through judicial proceedings. Auction prices
 reflect forced-sale values, which are typically 10–20% below open 
 market prices.
 
+### Sample Appraisal Reports
+
+> The following are real appraisal reports submitted to Jordanian courts, 
+> showing how traditional appraisers estimate property values manually.
+
+![Appraisal Report 1](../assets/REPORT.jpg)
+![Appraisal Report 2](../assets/REPORT2.jpg)
+![Appraisal Report 6](../assets/REPORT6.jpg)
+
+
 ---
 
 ## 2.3 Data Sources Summary
