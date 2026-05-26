@@ -6,6 +6,7 @@
 > **University of Petra — Second Semester 2025/2026**
 
 # 01 — Project Description and Objectives
+<img src="../assets/LOGO.jpg" width="300"/> <img src="../assets/REPORT%20(4).jpg" width="300"/>
 
 ## 1.1 What is This Project About?
 
