@@ -45,12 +45,9 @@ market prices.
 > The following are real appraisal reports submitted to Jordanian courts, 
 > showing how traditional appraisers estimate property values manually.
 
-![Appraisal Report 1](../assets/REPORT.jpg)
-![Appraisal Report 2](../assets/REPORT2.jpg)
-![Appraisal Report 6](../assets/REPORT6.jpg)
-
-
----
+<img src="../assets/REPORT.jpg" width="300"/>
+<img src="../assets/REPORT2.jpg" width="300"/>
+<img src="../assets/REPORT6.jpg" width="300"/>
 
 ## 2.3 Data Sources Summary
 
