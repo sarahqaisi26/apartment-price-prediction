@@ -20,6 +20,14 @@ When a borrower defaults on a mortgage, the court requires an independent valuat
 
 This project proposes a **data-driven alternative**: a machine learning model trained on hundreds of real apartment transactions from Company X, capable of generating a fair, consistent, and explainable price estimate in seconds — based solely on the apartment's documented features.
 
+> The following screenshots are taken directly from Jordan's official 
+> court auction platform (auctions.moj.gov.jo), showing real mortgaged 
+> apartments listed for judicial sale.
+
+![Court Auction Platform](../assets/auction_site.jpg)
+
+![Auction Listing](../assets/auction_listing.jpg)
+
 ---
 
 ## 1.2 Industry and Business Domain
