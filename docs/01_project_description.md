@@ -6,7 +6,7 @@
 > **University of Petra — Second Semester 2025/2026**
 
 # 01 — Project Description and Objectives
-<img src="../assets/LOGO.jpg" width="300"/> <img src="../assets/REPORT%20(4).jpg" width="300"/>
+<img src="../assets/LOGO.jpg" width="400"/> <img src="../assets/REPORT%20(4).jpg" width="400"/>
 
 ## 1.1 What is This Project About?
 
@@ -21,7 +21,7 @@ When a borrower defaults on a mortgage, the court requires an independent valuat
 
 This project proposes a **data-driven alternative**: a machine learning model trained on hundreds of real apartment transactions from Company X, capable of generating a fair, consistent, and explainable price estimate in seconds — based solely on the apartment's documented features.
 
-![Auction Advertisement](../assets/ADV.jpg)
+
 
 ## 1.2 Industry and Business Domain
 
