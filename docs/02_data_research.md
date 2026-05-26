@@ -40,7 +40,6 @@ mortgaged apartments sold through judicial proceedings. Auction prices
 reflect forced-sale values, which are typically 10–20% below open 
 market prices.
 
-### Sample Appraisal Reports
 
 > The following are real appraisal reports and court auction advertisements 
 > showing how traditional appraisers estimate property values manually.
