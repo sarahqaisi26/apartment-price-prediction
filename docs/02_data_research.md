@@ -46,8 +46,8 @@ market prices.
 > showing how traditional appraisers estimate property values manually.
 
 <img src="../assets/REPORT.jpg" width="300"/>
-<img src="../assets/REPORT2.jpg" width="300"/>
-<img src="../assets/REPORT6.jpg" width="300"/>
+<img src="../assets/REPORT%20(2).jpg" width="300"/>
+<img src="../assets/REPORT%20(6).jpg" width="300"/>
 
 ## 2.3 Data Sources Summary
 
