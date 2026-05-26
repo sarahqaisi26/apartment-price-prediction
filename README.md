@@ -73,23 +73,16 @@ The best model, Gradient Boosting, explains **72.5% of the variance** in apartme
 ---
 
 ## Project Structure
-apartment-price-prediction/
-├── README.md
-├── docs/
-│   ├── 01_project_description.md
-│   ├── 02_data_research.md
-│   ├── 03_data_analysis.md
-│   ├── 04_dashboard_design.md
-│   ├── 05_advanced_analytics.md
-│   └── 06_deployment.md
-├── data/
-│   ├── raw/
-│   └── processed/
-├── notebooks/
-├── dashboards/
-├── models/
-├── requirements.txt
-└── .gitignore
+
+| Folder/File | Contents |
+|-------------|----------|
+| `docs/` | Full project documentation (01–06) |
+| `data/raw/` | Original Excel dataset |
+| `data/processed/` | Cleaned data for Tableau |
+| `notebooks/` | Main Python notebook |
+| `dashboards/` | Tableau workbook |
+| `models/` | Saved ML models |
+| `requirements.txt` | Python dependencies |
 ---
 
 ## How to Run
