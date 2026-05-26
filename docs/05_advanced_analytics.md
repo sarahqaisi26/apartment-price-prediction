@@ -116,13 +116,6 @@ An MAE of 15,193 JOD on a median price of ~85,000 JOD represents an average erro
 
 The model is most reliable for apartments in the 50,000–150,000 JOD range, which represents the bulk of the dataset. Predictions for very high-value properties (above 200,000 JOD) carry higher uncertainty due to the small number of such properties in the training data.
 
-### Sample Court Appraisal Report
-
-> This is a real appraisal report submitted to a Jordanian court, 
-> showing the manual valuation process our model aims to replace.
-
-<img src="../assets/REPORT%20(3).jpg" width="300"/>
-
 ---
 
 ## 5.7 Why Gradient Boosting Won
