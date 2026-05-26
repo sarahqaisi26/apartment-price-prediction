@@ -1,6 +1,6 @@
 # 04 — Dashboard Design and Business Insights
 
-<img width="1000" height="925" alt="Screenshot (68)" src="https://github.com/user-attachments/assets/34a13830-15f8-4de2-801e-7c30cb3d2666" />
+<img width="1200" height="925" alt="Screenshot (68)" src="https://github.com/user-attachments/assets/34a13830-15f8-4de2-801e-7c30cb3d2666" />
 
 
 ## 4.1 Dashboard Overview
