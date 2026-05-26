@@ -1,3 +1,4 @@
+<img src="assets/logo.svg" width="600"/>
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3-orange)
 ![Tableau](https://img.shields.io/badge/Tableau-Public-lightblue)
