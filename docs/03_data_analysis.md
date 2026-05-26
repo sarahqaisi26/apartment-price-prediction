@@ -85,9 +85,9 @@ Building age shows a negative correlation — older buildings sell for less. Bas
 
 ### Sample Apartments from the Dataset
 
-<img src="../../assets/AP_PHOTO.jpg" width="300"/> <img src="../../assets/AP_PHOTO%20(3).jpg" width="300"/>
+<img src="../assets/AP_PHOTO.jpg" width="300"/> <img src="../assets/AP_PHOTO%20(3).jpg" width="300"/>
 
-<img src="../../assets/AP_PHOTO%20(4).jpg" width="300"/> <img src="../../assets/AP_PHOTO%20(5).jpg" width="300"/>
+<img src="../assets/AP_PHOTO%20(4).jpg" width="300"/> <img src="../assets/AP_PHOTO%20(5).jpg" width="300"/>
 ---
 
 ## 3.4 Key Insights from EDA
