@@ -30,7 +30,7 @@ traditional appraisal methods.
 
 ## Acknowledgment
 
-We would like to express our sincere gratitude to **Dr. Hussam Burham** for 
+We would like to express our sincere gratitude to **Dr. Hussam Barham** for 
 his continuous guidance throughout this project. We are also grateful to 
 **Company X** for sharing their transaction data. Finally, we acknowledge 
 the open-source community behind scikit-learn, pandas, matplotlib, and 
