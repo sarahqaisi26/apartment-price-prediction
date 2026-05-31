@@ -27,6 +27,21 @@
 
 ---
 
+## Table of Contents
+
+| # | Section | Link |
+|---|---------|------|
+| 1 | Abstract & Acknowledgment | [View](docs/00_abstract.md) |
+| 2 | Project Description & Objectives | [View](docs/01_project_description.md) |
+| 3 | Data Research & Acquisition | [View](docs/02_data_research.md) |
+| 4 | Data Description & Understanding | [View](docs/03_data_analysis.md) |
+| 5 | Dashboard Design & Business Insights | [View](docs/04_dashboard_design.md) |
+| 6 | Advanced Analytics & AI Modeling | [View](docs/05_advanced_analytics.md) |
+| 7 | Deployment & Tools | [View](docs/06_deployment.md) |
+| 8 | Results & References | [View](docs/07_results.md) |
+| 9 | Notebook | [View](notebooks/apartment_price_prediction.ipynb) |
+| 10 | Dashboard | [View](dashboards/) |
+
 ## What We Built
 
 A machine learning model trained on 603 real apartment transactions across 8 Jordanian cities. Given any apartment's documented features — size, location, floor, age, amenities — the model predicts its fair market price in milliseconds.
